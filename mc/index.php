@@ -1,6 +1,6 @@
 <?php
 //引入控制文件
-include 'controller/config.php';
+include 'https://xjhw.gitee.io/mc/controller/config.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -52,7 +52,7 @@ include 'controller/config.php';
     </div>
   </div>
 </nav>
-<div class="main" style="background-image: url('images/default.jpg')">
+<div class="main" style="background-image: url('https://xjhw.gitee.io/mc/images/default.jpg')">
 
     
     <div class="cover black" data-color="black"></div>
@@ -93,7 +93,7 @@ include 'controller/config.php';
     </div>
  </div>
  </body>
-   <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
-   <script src="js/bootstrap.min.js" type="text/javascript"></script>
+   <script src="https://xjhw.gitee.io/mc/js/jquery-1.10.2.js" type="text/javascript"></script>
+   <script src="https://xjhw.gitee.io/mc/js/bootstrap.min.js" type="text/javascript"></script>
 
 </html>
