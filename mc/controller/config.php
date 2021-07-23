@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-$json = file_get_contents("config.json");
+$json = file_get_contents("https://xjhw.gitee.io/mc/config.json");
 $jsoncf = json_decode($json);
 $servername = $jsoncf->servername;
 $serverip = $jsoncf->ip;
