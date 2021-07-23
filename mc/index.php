@@ -17,7 +17,7 @@ include 'https://xjhw.gitee.io/mc/controller/config.php';
     <title>欢迎加入<?php echo $servername;?>服务器</title>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	  <link href="css/coming-sssoon.css" rel="stylesheet" />
+	  <link href="https://xjhw.gitee.io/mc/css/coming-sssoon.css" rel="stylesheet" />
   
 </head>
 
