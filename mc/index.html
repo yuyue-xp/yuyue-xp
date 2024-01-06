@@ -7,11 +7,8 @@
     <meta name="keywords" content="余月xp,徐家汇王,yuexps,MSFXP,MCxujiahuiwang">
     <meta name="description" content="MCxujiahuiwang/yuexps/余月xp/MSFXP服务器网站～">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-    <!-- or -->
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <link rel="stylesheet" href="https://xjhw.gitee.io/css/gitalk.css">
+    <script src="https://xjhw.gitee.io/js/gitalk.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -91,14 +88,14 @@
 <div id="gitalk-container"></div>
     <script>
     var gitalk = new Gitalk({
-        clientID: '158aca23743138ea6d8c', //clientID 
-        clientSecret: '5738e1e329d51d4dab16f393a5d5c6581efece5e', //clientSecret
-        repo: 'yuyue-xp', // 评论仓库名
+        clientID: '158aca23743138ea6d8c',
+        clientSecret: '5738e1e329d51d4dab16f393a5d5c6581efece5e',
+        repo: 'yuyue-xp',
         owner: 'yuyue-xp',
-        admin: ['yuyue-xp'], //管理人
-        id: location.pathname, // 返回当前 URL 的路径部分作为id
-        language:'zh-CN', //语言
-        distractionFreeMode: false  // 无干扰模式
+        admin: ['yuyue-xp'],
+        id: location.pathname,
+        language:'zh-CN',
+        distractionFreeMode: false
     })
     gitalk.render('gitalk-container')
     </script>
